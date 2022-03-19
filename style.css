@@ -1,0 +1,47 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+body header h1 {
+    font-weight: 300;
+    text-align: center;
+}
+
+header {
+    padding: 1rem 2vw;
+    display: flex;
+    align-items: flex-end;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+header p {
+    margin: 0;
+    font-size: 1.22rem;
+    letter-spacing: 2px;
+}
+
+.profile {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px;
+}
+/* CSS Flexbox use */
+div#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2, p {
+    margin: 15px;
+}
+
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}
